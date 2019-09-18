@@ -16,7 +16,9 @@ class Artist
   end
 
   def add_song song
-    song.artist = self #creates a relationship
+    #creates a relationship
+    # song belongs to an artist
+    song.artist = self
   end
 
   def print_songs
