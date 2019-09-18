@@ -16,7 +16,7 @@ class Artist
   end
 
   def add_song song
-    #creates a relationship
+    # creates a relationship
     # song belongs to an artist
     song.artist = self
   end
